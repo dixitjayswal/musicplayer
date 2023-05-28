@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:5:5-80
+11-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <application
+13-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:7:5-33:19
+14        android:allowBackup="true"
+14-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\30e55b84ed15e56c3d8252d56cdfb57a\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@drawable/musicnotes"
+18-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:9:9-44
+19        android:label="@string/app_name"
+19-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:10:9-41
+20        android:requestLegacyExternalStorage="true"
+20-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:11:9-52
+21        android:roundIcon="@drawable/musicnotes"
+21-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:12:9-49
+22        android:supportsRtl="true"
+22-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.MyApplication" >
+24-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:14:9-51
+25        <activity
+25-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:15:9-17:40
+26            android:name="com.example.myapplication.PlayList"
+26-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:16:13-37
+27            android:exported="false" />
+27-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:17:13-37
+28        <activity
+28-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.example.myapplication.MusicPlayerActivity"
+29-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:19:13-48
+30            android:exported="false" />
+30-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:21:9-23:40
+32            android:name="com.example.myapplication.PlayerList"
+32-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:22:13-39
+33            android:exported="false" />
+33-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:23:13-37
+34        <activity
+34-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:24:9-32:20
+35            android:name="com.example.myapplication.MainActivity"
+35-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:25:13-41
+36            android:exported="true" >
+36-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:26:13-36
+37            <intent-filter>
+37-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:27:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:28:17-69
+38-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:30:17-77
+40-->D:\Internsip\MusicPlayer\app\src\main\AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.myapplication.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\eabe6fc141c834f21f0cf0c459656a3f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\672e790c32aeb85a209fc60ac6f568ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\672e790c32aeb85a209fc60ac6f568ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Dixit Jayswal\.gradle\caches\transforms-3\672e790c32aeb85a209fc60ac6f568ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

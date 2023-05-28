@@ -1,0 +1,31 @@
+com/example/myapplication/PlayerList.java
+ com.example.myapplication.PlayerList
+ com.example.myapplication.PlayerList$1
+com/example/myapplication/AudioModel.java
+ com.example.myapplication.AudioModel
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/PlayListAdapter.java
+ com.example.myapplication.PlayListAdapter
+ com.example.myapplication.PlayListAdapter$1
+ com.example.myapplication.PlayListAdapter$ViewHolder
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+com/example/myapplication/MusicListAdapter.java
+ com.example.myapplication.MusicListAdapter
+ com.example.myapplication.MusicListAdapter$1
+ com.example.myapplication.MusicListAdapter$2
+ com.example.myapplication.MusicListAdapter$ViewHolder
+com/example/myapplication/PlayList.java
+ com.example.myapplication.PlayList
+ com.example.myapplication.PlayList$1
+com/example/myapplication/MusicPlayerActivity.java
+ com.example.myapplication.MusicPlayerActivity
+ com.example.myapplication.MusicPlayerActivity$1
+ com.example.myapplication.MusicPlayerActivity$2
+ com.example.myapplication.MusicPlayerActivity$3
+ com.example.myapplication.MusicPlayerActivity$4
+ com.example.myapplication.MusicPlayerActivity$5
+com/example/myapplication/MyMediaPlayer.java
+ com.example.myapplication.MyMediaPlayer
